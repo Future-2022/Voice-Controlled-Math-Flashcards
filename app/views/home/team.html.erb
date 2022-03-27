@@ -1,0 +1,19 @@
+<div class="container" >
+    <%= render 'home/top_team_ad' %>
+    
+    <br/>
+
+
+
+        <% if @team_number < 1 %>
+            <%= render 'home/create_team' %>
+    
+        <% else %>
+
+			<%= render 'home/show_team' %>
+    
+        <% end %>
+    
+    
+    
+</div>
